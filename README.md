@@ -1,12 +1,8 @@
 # advent-2022
+A quick project for implementing and sharing Advent of Code solutions. https://adventofcode.com/2022
 
+Generated from ts-node-starter yeoman package.
 ## Development
-
-The project use [husky](https://github.com/typicode/husky) and
-[lint-staged](https://github.com/okonet/lint-staged) for linting and fixing possible errors on
-source code before commit
-
-Git hooks scripts are installed after running `npm install` the first time
 
 ### npm run build
 
@@ -27,11 +23,6 @@ Remove the following directories/files
 ### npm test
 
 Run `*.test.ts` and `*.spec.ts` files under the `src` folder
-
-### npm run cover
-
-The same as `npm test` and generates coverages reports in `.tmp/reports/coverage`. Exit with code >
-0 on error
 
 ### npm run lint
 
