@@ -29,7 +29,8 @@
     "linebreak-style": ["error", "unix"],
     "max-classes-per-file": ["error", 1],
     "no-console": "error",
-    "no-shadow": "warn",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
     "no-duplicate-imports": "error",
     "no-unused-expressions": "error",
     "no-dupe-class-members": "off", // typescript signature overload
